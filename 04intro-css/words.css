@@ -1,0 +1,148 @@
+body {
+    font-family: 'Kedebideri', sans-serif;
+    background-color: #f0e3d2;
+}
+
+/*headers stuff here*/
+header {background-color: #664651;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+}
+header span {
+    font-family: 'Chiron Sung HK', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #f0e3d2;
+}
+header p{
+    font-family: 'Chiron Sung HK', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #f0e3d2;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #776d4a;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type:
+        none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #f0e3d2;
+    font-weight: 700;
+}
+
+nav li.active a {
+    color: #f0e3d2;
+    background-color: #422d1e;
+}
+
+nav li a:hover {
+    color:white;}
+
+
+    /* main stuff */
+main {
+    padding: 1rem 10px;
+}
+main h1 {
+    font-family: 'Chiron Sung HK', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #664651;
+    padding-top:0.5rem;
+    padding-bottom: 1rem
+}
+
+main h2 {
+    font-family: 'Chiron Sung HK', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #664651;
+    margin-bottom: 0.2rem;
+}
+
+main p {
+    margin:0;
+    color:#422d1e
+}
+
+main dl dt {
+    color: #776d4a;
+    font-weight: 700;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+main ul {
+    background-color: #d7cba3;
+    color: #422d1e;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: .75rem;
+    padding-left: 2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    list-style-type: square;
+    
+}
+
+main ol {
+    color: #422d1e;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    line-height: 1.5rem;
+}
+
+main address {
+    font-style:italic;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* footer stuff here */
+
+footer {
+    background-color: #664651;
+    padding: 1rem 10px;
+    text-align: center;
+    color: #f0e3d2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer a {
+    color: #9bceda;
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+footer p {
+    letter-spacing: 0.2rem;
+}
