@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Reagan Parke">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the intricacies within the world of visual art.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&family=Kedebideri:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="words.css">
+    <title>Say it Without Words <br Exploring the Hidden Language of Art</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+        <span>Say it Without Words </span>
+        <p>Exploring the Hidden Language of Art</p>
+    </header>
+    <!--start the page head-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Introduction</a></li>
+            <li><a href="color.html">Color</a></li>
+            <li><a href="materials.html">Materials</a></li>
+            <li><a href="symbolism.html">Symbolism</a></li>
+            <li><a href="scale.html">Scale & Proportion</a></li>
+            <li class="active"><a href="print.html">Print Club</a></li>
+        </ul>
+    </nav>
+    <!--start the page head-->
+    <main>
+        
+ <h1>Join Our Print Club</h1>
+        <form method="get" class="myform" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="123-456-7890"></label>
+                <label>Email* <input type="email" name="email" placeholder="name@example.com" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Frequency</legend>
+                <label><input type="radio" name="method" value="weekly" required> Weekly</label>
+                <label><input type="radio" name="method" value="monthly" required> Monthly</label>
+                <label><input type="radio" name="method" value="threemonths" required> Every Three Months</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Art Selection: Select up to 3 types of art that you wish to receive in your delivery</legend>
+                <label><input type="checkbox" name="realism" value="chosen"> Realism Art</label>
+                <label><input type="checkbox" name="impressionism" value="chosen"> Impressionism Art</label>
+                <label><input type="checkbox" name="expressionism" value="chosen"> Expressionism Art</label>
+                <label><input type="checkbox" name="abstract" value="chosen"> Abstract Art</label>
+                <label><input type="checkbox" name="surrealism" value="chosen"> Surrealism Art</label>
+                <label><input type="checkbox" name="cubism" value="chosen"> Cubism Art</label>
+                <label><input type="checkbox" name="popart" value="chosen"> Pop Art</label>
+
+                <label>Print Size
+                    <select name="size" required>
+                        <option value="">Please Select</option>
+                        <option value="small">Small (8x10 inches)</option>
+                        <option value="medium">Medium (11x14 inches)</option>
+                        <option value="large">Large (16x20 inches)</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Comments
+            <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Join the Print Club">
+        </form>
+       
+
+
+    </main>
+
+    <footer>
+        <address>
+            Sometimes, the most important details of a piece of art is what it doesn't say out loud.<br>
+            If you want to learn more, feel free to contact us at <a href="tel:+19704433380">970-443-3380</a>
+        </address>
+        <p>&copy; 202x &bull; Reagan Parke &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
